@@ -9,14 +9,13 @@
 <body>
     <h2>JavaScript Numbers</h2>
 
-    <p>If you add two numeric strings, the result will be a concatenated string:</p>
+    <p>If you use NaN in a mathematical operation, the result will also be NaN:</p>
     
     <p id="demo"></p>
     <script>
-        let x = "10";
-        let y = "20";
-        let z = x + y;
-        document.getElementById('demo').innerHTML = z;
+        let x = NaN;
+        let y = 5;
+        document.getElementById('demo').innerHTML = x + y;
     </script>
 </body>
 </html>
